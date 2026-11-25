@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   render:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 50
     permissions:
       contents: write
@@ -32,7 +32,13 @@ jobs:
         with:
           python-version: '3.12'
       - run: npm install --ignore-scripts --no-audit --no-fund
-      - run: npx playwright install --with-deps chromium
+      - name: Select a browser for rendering
+        run: |
+          if browser="$(command -v google-chrome || command -v chromium)"; then
+            printf 'CHROMIUM_PATH=%s\n' "$browser" >> "$GITHUB_ENV"
+          else
+            npx playwright install chromium
+          fi
       - name: Install FFmpeg if needed
         run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
       - name: Build repository owner’s calendar
