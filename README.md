@@ -7,10 +7,6 @@ guest@hqvi:~$ who
 hqvi left this session open. that was three builds ago.
 ```
 
-## Signal history
-
-![GitHub contribution activity over the last 31 days](https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=hqvi&theme=tokyo-night&days=31&hide_title=true&hide_border=true&area=true)
-
 ## Session stats
 
 <p align="center">
