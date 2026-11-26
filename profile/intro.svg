@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 73" width="600" height="73" role="img" aria-labelledby="title">
-  <title id="title">howdy, i'm havi. and larping is my hobby.</title>
+  <title id="title">howdy!, i'm hαvi. and larping is my hobby. :></title>
   <defs>
     <clipPath id="line-one"><rect x="163" y="0" width="274" height="35"><animate attributeName="width" values="0;274" begin="0s" dur="1.25s" calcMode="linear" fill="freeze"/></rect></clipPath>
     <clipPath id="line-two">
@@ -10,7 +10,7 @@
   </defs>
   <g font-family="monospace">
     <g clip-path="url(#line-one)">
-      <text x="300" y="29" text-anchor="middle" fill="#f0f0f0" font-size="27" font-weight="700">howdy!, i'm havi.</text>
+      <text x="300" y="29" text-anchor="middle" fill="#f0f0f0" font-size="27" font-weight="700">howdy!, i'm hαvi.</text>
     </g>
     <g clip-path="url(#line-two)">
       <text x="161" y="57" textLength="278" lengthAdjust="spacingAndGlyphs" fill="#bdbdbd" font-size="19">and larping is my hobby. :></text>
