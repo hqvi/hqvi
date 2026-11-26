@@ -10,10 +10,10 @@
   </defs>
   <g font-family="monospace">
     <g clip-path="url(#line-one)">
-      <text x="300" y="29" text-anchor="middle" fill="#f0f0f0" font-size="32" font-weight="700">howdy!, i'm havi.</text>
+      <text x="300" y="29" text-anchor="middle" fill="#f0f0f0" font-size="27" font-weight="700">howdy!, i'm havi.</text>
     </g>
     <g clip-path="url(#line-two)">
-      <text x="161" y="57" textLength="278" lengthAdjust="spacingAndGlyphs" fill="#bdbdbd" font-size="24">and larping is my hobby. :></text>
+      <text x="161" y="57" textLength="278" lengthAdjust="spacingAndGlyphs" fill="#bdbdbd" font-size="19">and larping is my hobby. :></text>
     </g>
     <rect x="159" y="42" width="2" height="18" fill="#dedede">
       <animate attributeName="x" values="159;159;441;441;159;159" keyTimes="0;.17;.42;.76;.94;1" dur="7s" repeatCount="indefinite"/>
